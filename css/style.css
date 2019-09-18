@@ -1,0 +1,177 @@
+body {
+    margin: 0 auto;
+}
+h1 {
+    color: #fff;
+    text-align: center;
+}
+#contact-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: #333;
+}
+#username, #usermail {
+	width: 200px;
+	font-size: 14px;
+	padding: 10px 20px;
+	border: 1px solid #cecece;
+	background: inherit;
+	border-radius: 8px;
+    outline: 0;  
+}
+
+#mail-block {
+    margin-top: 10px;
+}
+#send-btn {
+    margin-top: 10px;
+    width: 244px;
+	font-size: 14px;
+	padding: 10px 20px;
+    background: #30ad64;
+    outline: 0;
+    border-radius: 8px;
+    color: #fff;
+    border: 1px solid #333;
+    text-transform: uppercase;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    font-weight: 700;
+}
+#send-btn:hover {
+    cursor: pointer;
+    border: 1px solid #333;
+    background-color: #fff;
+    color: #30ad64;
+}
+#error-name, #error-mail {
+    color: red;
+    font-size: 12px;
+}
+input#username:focus,
+input#usermail:focus {
+    border-color: aqua;
+}
+input[type="text"]::placeholder{
+    color:white;
+    text-align: center;
+}
+.new-border {
+    border: 1px solid #fff;
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    background-color: #484d53;
+/*    opacity: 0.4;*/
+}
+.zIndex {
+    position: relative;
+    z-index: 5;
+}
+.sale-image {
+    position: absolute;
+    margin-left: 200px;
+    top: 140px;
+}
+
+/*
+@media screen and (max-width: 1024px) { 
+  .sale-image {
+    position: absolute;
+    margin-left: 200px;
+    top: 390px;
+}
+}*/
+
+
+
+/*
+@media only screen and (min-width: 200px) and (max-width: 767px)  {
+    .sale-image {
+        position: absolute;
+        margin-left: 83px;
+        top: 30px;
+    }
+    
+    .new-border {
+        border: 1px solid #fff;
+        width: 325px;
+        height: 390px;
+        position: absolute;
+        background-color: #484d53;
+    }
+}
+*/
+@media only screen and (max-width: 420px) and (min-width: 412px){
+    .sale-image {
+        position: absolute;
+        margin-left: 119px;
+        top: 87px;
+    }
+    
+    .new-border {
+        border: 1px solid #fff;
+        width: 325px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 800px)  {
+    .sale-image {
+        position: absolute;
+        margin-left: 200px;
+        top: 234px;
+    }
+}
+@media only screen and (min-width: 800px) and (max-width: 1024px)  {
+    .sale-image {
+        position: absolute;
+        margin-left: 200px;
+        top: 384px;
+    }
+}
+@media only screen and (max-width: 412px) and (min-width: 375px){
+    .sale-image {
+        position: absolute;
+        margin-left: 119px;
+        top: 122px;
+    }
+    .new-border {
+        width: 320px;
+    }
+}
+@media only screen and (max-width: 360px) and (min-width: 375px){
+    .sale-image {
+        position: absolute;
+        margin-left: 96px;
+        top: 129px;
+    }
+    .new-border {
+        width: 320px;
+    }
+}
+@media only screen and (max-width: 360px) and (min-width: 321px){
+    .new-border {
+        border: 1px solid #fff;
+        width: 272px;
+        height: 390px;
+        position: absolute;
+        background-color: #484d53;
+    }
+    
+    .sale-image {
+        position: absolute;
+        margin-left: 96px;
+        top: 57px;
+    }
+}
+@media only screen and (max-width: 320px) and (min-width: 200px){
+    .sale-image {
+        position: absolute;
+        margin-left: 79px;
+        top: 21px;
+    }
+    .new-border {
+        width: 267px;
+    }
+}
